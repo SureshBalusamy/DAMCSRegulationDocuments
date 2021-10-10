@@ -560,6 +560,7 @@ nav {
 
 .page-wrapper.toggled .sidebar-wrapper {
   left: 0px;
+  overflow-y:scroll; /*--- working*/
 }
 
 
@@ -671,6 +672,7 @@ nav {
 
 .sidebar-wrapper .sidebar-menu {
   padding-bottom: 10px;
+
 }
 
 .sidebar-wrapper .sidebar-menu .header-menu span {
@@ -685,8 +687,9 @@ nav {
   width: 100%;
   text-decoration: none;
   position: relative;
-  padding: 8px 30px 8px 47px;
+  padding: 7px 30px 7px 47px;
   position: relative;
+
 }
 .sidebar-wrapper .sidebar-menu ul li.side-list>a:before,
 .sidebar-wrapper .sidebar-menu ul li.sidebar-dropdown>a:before {
@@ -727,15 +730,16 @@ nav {
   right: 15px;
   top: 13px;
   font-size: 0.57em;
+  overflow: auto;
 }
 
 .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu ul {
-  padding: 5px 0;
+  padding: 1px 0;
 }
 
 .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li {
-  padding-left: 25px;
-  font-size: 0.92em;
+  padding-left: 2px;
+  font-size: 0.90em;
 }
 
 .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a:before {
@@ -746,7 +750,7 @@ nav {
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-right: 10px;
+  margin-right: 5px;
   font-size: 0.57em;
 }
 
@@ -777,10 +781,11 @@ nav {
 }
 
 .content-section {
-  width: 70%;
+  width: 100%;
   float: left;
   padding-left: 20px;
   padding-top: 50px;
+  text-align: justify;
 }
 
 .right-nav {
@@ -923,7 +928,7 @@ nav {
 }
 
 .boxes-banner {
-  padding:0px 0 100px;
+  padding:0px 0 500px;
 }
 
 .box-head-in {
