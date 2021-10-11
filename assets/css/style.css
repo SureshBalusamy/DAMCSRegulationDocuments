@@ -620,10 +620,11 @@ nav {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
+
 }
 
 .sidebar-wrapper .sidebar-brand>a {
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: bold;
   flex-grow: 1;
 }
