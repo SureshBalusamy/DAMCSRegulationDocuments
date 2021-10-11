@@ -440,8 +440,9 @@ a:focus {
 .brand-name {
   font-size: 1em;
   font-weight: 800;
-  float: left;
-  text-transform: uppercase;
+  /*float: center;*/
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .navbar-brand:hover
@@ -928,7 +929,7 @@ nav {
 }
 
 .boxes-banner {
-  padding:0px 0 500px;
+  padding:0px 0 70px;
 }
 
 .box-head-in {
@@ -946,6 +947,7 @@ nav {
   border-radius: 10px;
   border: 1px solid #0e287f;
 }
+
 .box-wrapper h3
 {
   font-size: 18px;
@@ -980,8 +982,8 @@ nav {
 }
 
 .main-articles ul li {
-  width: calc(100% / 5);
-  float: left;
+  width: calc(100% / 3);
+  float: right;
   padding: 16px;
   list-style: none;
 }
