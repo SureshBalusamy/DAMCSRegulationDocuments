@@ -228,8 +228,8 @@ ul.pro-ul li p {
 }
 
 .section {
-  padding: 60px 0;
-  border-top: 1px solid #f0f0f0;
+  padding: 30px 0;
+  border-top: 2px solid #f0f0f0;
 }
 
 .form-control:focus {
@@ -825,7 +825,7 @@ nav {
 .org-theme .sidebar-wrapper .sidebar-header .user-info,
 .org-theme .sidebar-wrapper .sidebar-brand>a:hover,
 .org-theme .sidebar-footer>a:hover i {
-  color: #fff;
+  color: #FFBF00;
 }
 
 .page-wrapper.org-theme.toggled #close-sidebar {
