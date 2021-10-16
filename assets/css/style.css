@@ -320,10 +320,12 @@ a:focus {
   background: none;
   z-index: 9;
   position: unset;
+
 }
 
 .header .navbar-collapse ul.navbar-nav {
   width: 100%;
+
 }
 
 .header li a.doc-action {
@@ -424,6 +426,7 @@ a:focus {
 
 .header nav .navbar-collapse li.nav-item>a:first-child {
   padding-left: 0px;
+  position: sticky;
 }
 
 .header nav .navbar-collapse li.nav-item>a {
@@ -431,6 +434,7 @@ a:focus {
     font-size: 14px;
     font-weight: 500;
     color: #6f7f9f;
+
 }
 
 .header nav .navbar-collapse li.nav-item>a.dropdown-toggle::after {
@@ -460,14 +464,17 @@ nav.light-navbar ul>li>a {
 
 .org-theme.bootstrap-color nav.light-navbar .search-wrapper {
   border-bottom: 1px solid #fff;
+
 }
 
 .org-theme.bootstrap-color nav.light-navbar .search-wrapper input {
   color: #fff;
+
 }
 
 .org-theme.bootstrap-color nav.light-navbar .search-wrapper i {
   color: #fff;
+
 }
 
 .dropdown-item.active,
