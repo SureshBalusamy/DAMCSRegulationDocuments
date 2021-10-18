@@ -1,7 +1,7 @@
 /*-------------------------------------------------------------------------------------
-Template: VedhaDocs - The complete documentation template
+Template: PSG TECH AMCS - The complete documentation template
 Version:    1.0
-Author: Vedhathemes
+Author: PSGTECH AMCS
 -------------------------------------------------------------------------------------*/
 /*
   ================================================
